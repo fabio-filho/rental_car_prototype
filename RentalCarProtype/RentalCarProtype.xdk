@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "0a20d608-c905-4506-ba0d-cc5d081922ba",
-      "lastModifiedDate": 1461934948865,
+      "lastModifiedDate": 1462030373153,
       "creationDate": 1461934048338
     },
     "XDK-app-designer": "true",
@@ -91,7 +91,7 @@
           "android-signed": true
         },
         "isActive_": true,
-        "appName_": "MyTestJquery",
+        "appName_": "RentalCarPrototype",
         "appID_": "xdk.intel.blank.ad.template.crosswalk",
         "appAccess_": {
           "mode": "whitelist",
@@ -113,7 +113,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "certificateId_": "",
+        "certificateId_": "qxlofFcAdk-qNHSxCS1mmg2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "16",
         "appVersion_": "0.0.1",
@@ -130,7 +130,7 @@
           "deployment-target": "8.0"
         },
         "isActive_": true,
-        "appName_": "MyTestJquery",
+        "appName_": "RentalCarPrototype",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
           "mode": "whitelist",
@@ -171,7 +171,7 @@
           "windows-publisher-id": ""
         },
         "isActive_": true,
-        "appName_": "MyTestJquery",
+        "appName_": "RentalCarPrototype",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
           "mode": "whitelist",
@@ -198,8 +198,8 @@
         "runtime_": "W3C",
         "name_": "WebApp",
         "preferences_": {},
-        "isActive_": false,
-        "appName_": "MyTestJquery",
+        "isActive_": true,
+        "appName_": "RentalCarPrototype",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -222,8 +222,8 @@
         "runtime_": "W3C on Chrome OS",
         "name_": "Chrome",
         "preferences_": {},
-        "isActive_": false,
-        "appName_": "MyTestJquery",
+        "isActive_": true,
+        "appName_": "RentalCarPrototype",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -247,7 +247,7 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "MyTestJquery",
+        "appName_": "RentalCarPrototype",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -271,7 +271,7 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "MyTestJquery",
+        "appName_": "RentalCarPrototype",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -295,7 +295,7 @@
         "name_": "WP81",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "MyTestJquery",
+        "appName_": "RentalCarPrototype",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",

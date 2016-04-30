@@ -328,7 +328,7 @@ body#afui .splt {
     margin-right: 1px;
   }
   .d-margins {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 0px;
   }
 }
@@ -385,23 +385,17 @@ label:empty {
 }
 @media all {
   .default-graphic-button {
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: grey;
-    background-color: #ffffff;
+    background-color: ;
   }
 }
 @media all {
   .hover-graphic-button:hover {
-    border-radius: 5px;
-    background-color: #eeeeee;
+    background-color: ;
   }
 }
 @media all {
   .active-graphic-button:active {
-    border-radius: 5px;
-    background-color: #dddddd;
+    background-color: ;
   }
 }
 @media all {
@@ -411,19 +405,11 @@ label:empty {
 }
 @media all {
   .default-graphic-sizing {
-    width: 150px !important;
-    -webkit-flex: 0 0 auto !important;
-    -moz-flex: 0 0 auto !important;
-    -ms-flex: 0 0 auto !important;
-    -o-flex: 0 0 auto !important;
-    flex: 0 0 auto !important;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
   }
 }
 @media all {
-  .default-image-sizing > img {
-    width: 50px;
-  }
+  
 }
 @media all {
   .default-sprite-button div.uib-sprite {
@@ -1642,4 +1628,21 @@ label:empty {
 .item-title.label {
   line-height: 2;
   margin-right: 8px;
+}
+.padding-bottom {
+  margin-bottom: 35px;
+}
+.left-receptacle {
+  float: left;
+}
+.right-receptacle {
+  float: right;
+}
+[data-uib="media/text"] p:first-of-type {
+  margin-top: 0px;
+}
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
