@@ -49,6 +49,14 @@
      })
      
      
+     $("#mUserPageListViewItemMoreInfo").click(function(){
+         
+         activate_page("#schedule_more_info");
+     });
+     
+     
+     
+     
      
     
         /* button  Fazer reserva */
@@ -66,11 +74,7 @@
     });
     
         /* graphic button  Voltar */
-    $(document).on("click", ".uib_w_71", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#mainpage"); 
-    });
+    
     
         /* graphic button  Voltar */
     $(document).on("click", ".uib_w_72", function(evt)
@@ -109,10 +113,39 @@
     });
     
         /* tab  .uib_w_30 */
+    
+    
+        /* tab  .uib_w_30 */
+    
+    
+        /* tab  .uib_w_31 */
+    
+    
+        /* tab  .uib_w_30 */
     $(document).on("click", ".uib_w_30", function(evt)
     {
          /*global activate_subpage */
          activate_subpage("#user_page"); 
+    });
+    
+        /* tab  .uib_w_31 */
+    
+    
+        /* tab  .uib_w_31 */
+    $(document).on("click", ".uib_w_31", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#settingsPage"); 
+    });
+    
+        /* graphic button  < Voltar */
+    
+    
+        /* graphic button  < Voltar */
+    $(document).on("click", ".uib_w_71", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#mainpage"); 
     });
     
     }

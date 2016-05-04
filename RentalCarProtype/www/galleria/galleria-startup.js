@@ -114,7 +114,7 @@
      * @param {Object} gallery - Gallery Data
      */
   function runGallery(gallery){
-    Galleria.configure({ thumbnails: false });
+    Galleria.configure({ thumbnails: false, wait: true });
     Galleria.run(gallery.imageGalleryDOMNode);
   }
 
